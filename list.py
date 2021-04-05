@@ -1,0 +1,13 @@
+sehirler = list(("istabul" , "ankara" , "kastamonu"))
+sehirler.remove("kastamonu")
+sehirler.append("antalya")
+print(sehirler.count("antalya"))
+print(sehirler)
+sehirler2 = ["istanbul" , "hatay"]
+# sehirler2.pop(1)
+sehirler2.insert(0  ,"rize")
+print(sehirler2)
+sehirler.extend(sehirler2)
+print(sehirler)
+sehirler.sort()
+print(sehirler)
